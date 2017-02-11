@@ -1,0 +1,70 @@
+
+.navbar{
+  display: block;
+  margin-top: -10px;
+  background: #aaa;
+  & ul{
+    & li{
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+  & #logo,
+    nav{
+    display: inline-block;
+    & a{
+    text-decoration: none;
+    color: #333;
+    }
+  }
+  & nav{
+    position: absolute;
+    right: 5%;
+  }
+  & #logo{
+    position: relative;
+    left: 5%;
+    margin: 16px 5px;
+    text-decoration: none;
+    color: #333;
+  }
+}
+
+.container{
+  position: relative;
+  max-width: 1200px;
+  margin: 5px auto;
+}
+.center{
+  text-align: center;
+}
+
+footer{
+  & small,
+    nav{
+      display: block;
+      margin: 5px;
+    }
+  & nav{
+    position: absolute;
+    right: 5%;
+    & ul{
+      text-align: right;
+      & li{
+        display: inline-block;
+        margin: 5px;
+        & a{
+          text-decoration: none;
+          color: #333;
+        }
+      }
+    }
+  }
+}
+
+html{
+  background: #eee;
+}
+body{
+  margin: 0;
+}
