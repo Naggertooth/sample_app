@@ -4,7 +4,10 @@ describe "User pages" do
 
   subject { page }
 
-  describe "profile page", type: :feature do
+  describe "profile page", type: :feature do     #feach for paths
+  end
+  end
+  end
     let(:user) { FactoryGirl.create(:user) }
     before { visit user_path(user) }
 
